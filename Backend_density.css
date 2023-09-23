@@ -1,0 +1,126 @@
+body {
+    background-color: cadetblue;
+    font-family: Arial, sans-serif; /* Add a default font for better typography */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#Title {
+    text-align: center;
+    border-style: solid;
+    border-radius: 500px;
+    border: 5px;
+    border-color: lightblue;
+    text-transform: capitalize;
+    background-color: teal;
+    color: whitesmoke;
+    border-width: 50px teal;
+    padding: 10px;
+}
+
+
+
+
+#Object {
+    
+    color: rgb(255, 255, 255);
+    background-color:color-mix(in srgb, rgb(83, 179, 179) 50%, rgb(41, 146, 76) 50%);
+    display:inline-flex;
+    border-radius: 250px;
+    padding: 10px;
+    
+}
+
+#mass_calculator {
+    color: rgb(255, 255, 255);
+    background-color:color-mix(in srgb, rgb(83, 179, 179) 50%, rgb(41, 146, 76) 50%);
+    display: inline-block;
+    border-radius: 250px;
+    padding: 10px;
+    
+}
+
+#volume_calculator {
+    color: rgb(255, 255, 255);
+    background-color:color-mix(in srgb, rgb(83, 179, 179) 50%, rgb(41, 146, 76) 50%);
+    display:inline-flex;
+    border-radius: 250px;
+    padding: 10px;
+
+
+}
+
+#MassTextBox {
+    display: block;
+    
+        border-radius: 250px;
+        padding: 10px;
+        font-size: large;
+        background-color:  rgba(105, 168, 228, 0.849);
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+}
+
+#ObjectText {
+    display: block;
+    border-radius: 250px;
+    padding: 10px;
+    font-size: large;
+    background-color:   rgba(105, 168, 228, 0.849);
+       color: rgb(255, 255, 255);
+       font-weight: bold;
+}
+
+#VolumeTextBox {
+   
+        display: block;
+        border-radius: 250px;
+        padding: 10px;
+        font-size: large;
+      background-color: rgba(105, 168, 228, 0.849);
+       color: rgb(255, 255, 255);
+       font-weight: bold;
+}
+
+#density {
+    color: chartreuse;
+    border-radius: 200px;
+    background-color: teal;
+    padding: 10px;
+}
+
+#Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 200%;
+    min-height: 200%;
+    z-index: -1;
+}
+
+#Calculate_Button {
+    border-radius: 125px;
+    border-width: 20px;
+    border-color: tan;
+    background-color: whitesmoke;
+    justify-content: center;
+    border-style: solid;
+    height: 100px;
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    color: red;
+    font-weight: bolder;
+
+}
+
+#notice {
+    background-color: beige;
+    border-radius: 100px;
+    border-width: 250px;
+    padding: 5px;
+    color: red;
+}
